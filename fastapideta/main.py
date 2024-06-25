@@ -12,7 +12,7 @@ app = FastAPI(
 
 @app.get("/", tags=["Welcome"])
 def read_root():
-    return {"Hello": "To use the tool go to https://9daobr.deta.dev/docs"}
+    return {"Hello": "To use the tool go to https://combinationsum-1-l6323962.deta.app/docs"}
 
 
 @app.post("/", name="Combination sum Function", tags=["Test the tool in POST"])
